@@ -17,7 +17,7 @@ export class AppComponent implements OnInit {
   ngOnInit():void{
     this.getIdentidad();
   }
-
+//Prueba
   getIdentidad(){
     this.loginService.getIdentity().subscribe(
       res => {
